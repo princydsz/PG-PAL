@@ -1,0 +1,39 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated files
+node_modules/
+**/node_modules/
+.expo/
+**/.expo/
+**/target/
+**/build/
+dist/
+web-build/
+
+# Local uploads and logs
+uploads/
+**/uploads/
+*.log
+startup-log.txt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Android signing keys
+*.jks
+*.keystore
+
+# Bundled Java JDK
+backend/oracleJdk-25/

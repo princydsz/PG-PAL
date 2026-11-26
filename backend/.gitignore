@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Java / Spring Boot
+**/target/
+**/uploads/
+**/.idea/
+**/.vscode/
+
+# Node / Expo
+**/node_modules/
+**/.expo/
+**/dist/
+**/web-build/
+
+# Operating system
+.DS_Store
+Thumbs.db
